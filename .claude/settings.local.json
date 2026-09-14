@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-turbopack --yes)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add button input label card badge)",
+      "Bash(npm install lucide-react)",
+      "Bash(npm run build)",
+      "Bash(npm install motion @radix-ui/react-icons)",
+      "Bash(npx shadcn@latest add @magicui/bento-grid --yes)",
+      "Bash(npx shadcn@latest add @magicui/bento-grid)",
+      "Bash(npm info @paper-design/shaders-react)",
+      "Bash(npm info @paper-design/shaders-react exports)",
+      "Bash(npm pack @paper-design/shaders-react --dry-run)",
+      "Bash(node -e \"const p = require\\(''@paper-design/shaders-react''\\); console.log\\(Object.keys\\(p\\)\\)\")",
+      "Bash(npm install @paper-design/shaders-react --dry-run)",
+      "Bash(npm install @paper-design/shaders-react)",
+      "Bash(node -e \"const p = require\\(''./node_modules/@paper-design/shaders-react''\\); console.log\\(Object.keys\\(p\\)\\)\")",
+      "Bash(npm info react-bits)",
+      "Bash(npm info @react-bits/ui)"
+    ]
+  }
+}

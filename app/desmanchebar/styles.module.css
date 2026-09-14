@@ -1,0 +1,209 @@
+.container {
+  background-color: #1a0f08; /* Um marrom bem escuro, cor de fundo da sua imagem */
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  position: relative;
+}
+
+.bgImage {
+  object-fit: cover;
+  object-position: center top;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(18, 10, 5, 0.85), rgba(18, 10, 5, 0.98));
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: flex-start;
+    padding-top: 85vw; /* Deixa o espaço exato da imagem livre no topo */
+  }
+  
+  .bgImage {
+    object-fit: contain;
+    object-position: top center;
+  }
+  
+  .overlay {
+    background-image: linear-gradient(to bottom, rgba(18, 10, 5, 0.7) 0%, rgba(18, 10, 5, 0.85) 50vw, rgba(18, 10, 5, 1) 100vw);
+  }
+}
+
+.content {
+  max-width: 900px; /* Aumentado para dar espaço para o texto longo */
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 4.5vw, 4rem); /* Diminuído para caber na tela toda em uma linha */
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  white-space: nowrap; /* Força a ficar tudo em 1 linha */
+}
+
+.strongSubtitle {
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: #c4a962; /* Dourado para destacar bastante */
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.subtitle {
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  color: #e5e7eb; /* Cinza bem claro */
+  line-height: 1.6;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.formWrapper {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px); /* Efeito de vidro */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formTitle {
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.formSubtitle {
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c4a962; /* Dourado para destacar o Voucher */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Overrides for HokmahForm inputs */
+.formWrapper :global(.form-group input),
+.formWrapper :global(.phone-input-container .PhoneInputInput) {
+  background: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.formWrapper :global(.form-group input:focus),
+.formWrapper :global(.phone-input-container .PhoneInputInput:focus) {
+  border-color: #c4a962; /* Dourado */
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 1px #c4a962;
+}
+
+.formWrapper :global(.phone-input-container .PhoneInputCountry) {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: none;
+}
+
+/* Overrides for HokmahForm button */
+.formWrapper :global(.btn-cta) {
+  background: #c4a962;
+  color: #000000;
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.formWrapper :global(.btn-cta:hover) {
+  background: #ad9452;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(196, 169, 98, 0.3);
+}
+
+/* Overrides for error states */
+.formWrapper :global(.form-group.has-error input),
+.formWrapper :global(.form-group.has-error .phone-input-container .PhoneInputInput),
+.formWrapper :global(.form-group.has-error .phone-input-container .PhoneInputCountry) {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+@media (max-width: 480px) {
+  .formWrapper {
+    padding: 1.5rem;
+  }
+}
+
+.instaButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 1.2rem;
+  border-radius: 12px;
+  margin: 1.5rem auto 0 auto;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.instaButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 25px rgba(220, 39, 67, 0.4);
+}
+
+.terms {
+  margin-top: 3rem;
+  font-family: var(--font-inter), 'Inter', sans-serif;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.terms p {
+  margin-bottom: 0.25rem;
+}
