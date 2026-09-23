@@ -19,7 +19,7 @@ export default function Hero() {
           display: 'block',
           marginBottom: '1rem'
         }}>
-          PERÍMETRO
+          MENTORIA ORIGEM
         </span>
         
         <div style={{ width: '40px', height: '2px', backgroundColor: 'var(--gold-primary)', margin: '0 auto 3rem' }}></div>
@@ -28,6 +28,20 @@ export default function Hero() {
           Você já entendeu o seu padrão.<br/><br/>
           <span style={{ fontWeight: 600 }}>A pergunta agora é: por que continua obedecendo a ele?</span>
         </h1>
+
+        <p style={{ marginTop: '2rem', fontSize: '1.2rem', color: 'var(--text-muted)', lineHeight: 1.6 }}>
+          Um ciclo com seis encontros de direcionamento e acompanhamento individual para quem sabe exatamente o que precisa fazer e, mesmo assim, não faz.
+        </p>
+
+        <p style={{ marginTop: '1.5rem', fontSize: '1.2rem', color: 'var(--gold-primary)', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '1px' }}>
+          Destrave a sua execução e potencialize de vez os resultados
+        </p>
+        
+        <div style={{ marginTop: '3rem' }}>
+          <button onClick={openPopup} className="btn-cta" style={{ maxWidth: '400px', margin: '0 auto' }}>
+            QUERO AGENDAR MINHA CONSULTA
+          </button>
+        </div>
         
         {/* Subtle diagram start point */}
         <div style={{ marginTop: '5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

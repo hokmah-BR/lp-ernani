@@ -1,31 +1,41 @@
 'use client';
 import React, { useState } from 'react';
+import { usePopup } from '../../app/components/PopupContext';
 
 const faqData = [
   {
-    question: "“Já tentei tanta coisa que talvez o problema seja simplesmente quem eu sou.”",
-    answer: "Essa talvez seja a objeção mais importante de todas. Mas repetição e identidade não são necessariamente a mesma coisa. Se seu comportamento muda de acordo com contexto, pessoa ou situação, já existe uma pista importante. O Perímetro parte justamente da possibilidade de investigar essas regularidades como padrões — em vez de começar pela sentença de que elas definem quem você é."
+    question: "Mas eu já entendi os meus padrões.",
+    answer: "Ótimo. Então provavelmente você não precisa de mais explicações sobre eles. A Mentoria Origem parte justamente da diferença entre compreender um padrão e conseguir agir de outra maneira quando a situação acontece na vida real."
   },
   {
-    question: "“Mas eu já entendi meus padrões.”",
-    answer: "Ótimo. Então provavelmente você não precisa de mais cinquenta explicações sobre eles. Dentro do modelo da TAR, compreensão intelectual e mudança comportamental são tratadas como problemas diferentes. O Ciclo concentra o trabalho justamente nessa passagem entre aquilo que você compreende e aquilo que acontece quando chega o momento real de escolher."
+    question: "Tenho medo de mudar e destruir tudo o que construí.",
+    answer: "Mudar um padrão não significa abandonar sua carreira, seu relacionamento ou a vida que você construiu até aqui. O objetivo do processo não é empurrar você para decisões radicais, mas ampliar sua capacidade de escolha para que suas decisões sejam mais conscientes e coerentes com aquilo que realmente deseja viver."
   },
   {
-    question: "“Tenho medo de mudar e destruir tudo que construí.”",
-    answer: "Romper um padrão não significa romper sua vida. O Ciclo não exige decisões radicais. Você não será orientado a pedir demissão ou abandonar aquilo que construiu. O objetivo é ampliar suas possibilidades de escolha. Talvez, depois disso, você decida continuar exatamente onde está."
+    question: "Por que a consulta de avaliação é uma etapa tão importante?",
+    answer: "Porque o problema raramente está exatamente onde parece estar. Você pode acreditar que precisa de mais disciplina, coragem, confiança ou simplesmente tomar uma decisão que vem adiando. Mas essas dificuldades podem ser apenas a parte visível de um mecanismo que continua organizando suas escolhas. A consulta é o primeiro momento para investigar esse mecanismo com profundidade, a partir da sua história e do que está acontecendo hoje."
   },
   {
-    question: "“E se eu mudar e depois voltar para o mesmo lugar?”",
-    answer: "A TAR busca trabalhar o mecanismo que participa do retorno ao comportamento conhecido. A meta não é ensinar você a passar o resto da vida lutando contra si mesmo. É tornar o circuito observável para que ele deixe de operar como uma regra invisível."
+    question: "O que vou levar da consulta de avaliação?",
+    answer: "Uma compreensão mais precisa sobre o que está acontecendo e sobre os padrões que podem estar participando disso. Ao longo da conversa, você começa a enxergar sua situação a partir da Teoria da Autoimagem Referencial (TAR) e a compreender como esse modelo se aplica à sua realidade. A partir dessa clareza, você poderá decidir com mais segurança se a Mentoria Origem é o próximo passo para você."
   },
   {
-    question: "Isso substitui terapia?",
-    answer: "O Perímetro é um ciclo delimitado baseado na metodologia TAR e focado em uma demanda específica. Caso você esteja em acompanhamento de saúde mental, decisões sobre iniciar, interromper ou substituir tratamentos devem ser tomadas com os profissionais responsáveis pelo seu cuidado."
+    question: "Preciso estar em crise para participar?",
+    answer: "Não. Você pode estar trabalhando, cuidando da família, cumprindo suas responsabilidades e, ainda assim, sentir que existe uma distância entre a vida que construiu e a vida que realmente gostaria de viver. A Mentoria Origem também foi pensada para esse momento: quando, por fora, tudo parece funcionar, mas por dentro permanece a sensação de estar vivendo aquém do que poderia."
+  },
+  {
+    question: "E se eu não souber exatamente qual é o meu problema?",
+    answer: "Tudo bem. Talvez você perceba apenas que continua repetindo situações parecidas, tomando decisões que não entende ou convivendo com uma insatisfação que não consegue explicar. Parte do trabalho começa justamente trazendo clareza para aquilo que hoje ainda parece confuso."
+  },
+  {
+    question: "E se eu já tentei outras abordagens e nada funcionou?",
+    answer: "Talvez você já tenha estudado comportamento, feito cursos, lido livros ou passado por diferentes processos e, ainda assim, perceba que continua voltando a determinados padrões. A proposta da Mentoria Origem não é acrescentar mais uma explicação àquilo que você já sabe. É investigar o mecanismo que mantém o padrão funcionando e trabalhar diretamente sobre ele."
   }
 ];
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
+  const { openPopup } = usePopup();
 
   const toggleFaq = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -38,12 +48,9 @@ export default function FAQ() {
       <div style={{ position: 'absolute', top: 0, left: '50%', transform: 'translateX(-50%)', width: '1px', height: '100%', background: 'var(--gold-primary)', opacity: 0.15, zIndex: 0 }}></div>
 
       <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: '800px' }}>
-        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '3px', textAlign: 'center', display: 'block' }}>PERGUNTAS E OBJEÇÕES</span>
-        <h2 className="section-title reveal delay-1" style={{ color: 'var(--text-white)', fontWeight: 300, fontSize: 'clamp(2rem, 3vw, 2.5rem)', margin: '0 auto 4rem', textAlign: 'center' }}>
-          O que você precisa saber antes de iniciar
-        </h2>
+        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '3px', textAlign: 'center', display: 'block' }}>FAQ</span>
         
-        <div className="faq-list reveal delay-2">
+        <div className="faq-list reveal delay-2" style={{ marginTop: '3rem' }}>
           {faqData.map((item, index) => (
             <div 
               key={index} 
@@ -97,6 +104,12 @@ export default function FAQ() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div style={{ marginTop: '4rem', textAlign: 'center' }}>
+          <button onClick={openPopup} className="btn-cta" style={{ maxWidth: '400px' }}>
+            QUERO AGENDAR MINHA CONSULTA
+          </button>
         </div>
       </div>
     </section>
