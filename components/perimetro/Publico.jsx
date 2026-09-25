@@ -1,37 +1,44 @@
-'use client';
 import React from 'react';
-import { usePopup } from '../../app/components/PopupContext';
+import CtaButton from './CtaButton';
 
 export default function Publico() {
-  const { openPopup } = usePopup();
 
   return (
-    <section id="publico" style={{ position: 'relative', background: 'var(--bg-dark)', padding: '6rem 0' }}>
+    <section id="publico" style={{ position: 'relative', background: 'var(--bg-dark)' }}>
       
-      {/* Continuing diagram line */}
-      <div style={{ position: 'absolute', top: 0, left: '50%', transform: 'translateX(-50%)', width: '1px', height: '100%', background: 'var(--gold-primary)', opacity: 0.15, zIndex: 0 }}></div>
+      {/* Linha abstrata lateral indicando profundidade (coordendas) */}
+      <div style={{ position: 'absolute', top: 0, left: '10%', width: '1px', height: '100%', background: 'linear-gradient(to bottom, rgba(196,154,106,0.1), rgba(196,154,106,0))', zIndex: 0 }}></div>
 
-      <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: '900px' }}>
-        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '3px' }}>PARA QUEM É?</span>
-        <h2 className="section-title reveal delay-1" style={{ color: 'var(--text-white)', fontWeight: 300, fontSize: 'clamp(2rem, 3vw, 2.5rem)', maxWidth: '900px', margin: '0 auto 4rem' }}>
-          Este ciclo foi pensado para quem já sabe demais e continua parado.
-        </h2>
+      <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: '840px' }}>
         
-        <div className="reveal delay-2" style={{ padding: '4rem', background: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '4px' }}>
-          <p className="opportunity-text mb-6" style={{ fontSize: '1.2rem', color: 'var(--gold-primary)' }}>Especialmente para você que:</p>
-          <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '2rem' }}>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> construiu uma carreira sólida, mas trava quando precisa decidir sobre a própria vida;</li>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> consegue liderar pessoas e resolver problemas complexos, mas adia há anos uma decisão pessoal;</li>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> já fez terapia, estudou comportamento, ouviu podcasts, leu livros e acumulou explicações, sem conseguir sustentar determinadas mudanças;</li>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> começa mudanças importantes e depois percebe que está voltando sistematicamente ao mesmo ponto;</li>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> conquistou algo que deveria trazer satisfação e descobriu que a sensação esperada simplesmente não veio;</li>
-            <li className="bullet-item" style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}><span style={{ color: 'var(--gold-primary)', marginRight: '1rem' }}>—</span> teme que mudar signifique destruir carreira, relacionamento ou tudo aquilo que levou anos para construir.</li>
+        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '4px', textTransform: 'uppercase', fontSize: 'var(--text-xs)', display: 'block', marginBottom: 'var(--space-12)' }}>Para quem é?</span>
+        
+        <div className="reveal delay-2" style={{ paddingLeft: 'var(--space-8)', borderLeft: '1px solid var(--gold-border)' }}>
+          
+          <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
+            <li className="bullet-item" style={{ color: 'var(--text-white)', fontSize: 'var(--text-lg)', fontWeight: 300, lineHeight: 1.6 }}>
+              — Pra você que trabalha, corre, resolve… mas termina o dia com a sensação de não ter feito nada.
+            </li>
+            <li className="bullet-item" style={{ color: 'var(--text-white)', fontSize: 'var(--text-lg)', fontWeight: 300, lineHeight: 1.6 }}>
+              — Pra você que começa com certeza e, no meio do caminho, desiste.
+            </li>
+            <li className="bullet-item" style={{ color: 'var(--text-white)', fontSize: 'var(--text-lg)', fontWeight: 300, lineHeight: 1.6 }}>
+              — Pra você que está diante de uma oportunidade, mas encontra um bom motivo para esperar mais um pouco.
+            </li>
+            <li className="bullet-item" style={{ color: 'var(--text-white)', fontSize: 'var(--text-lg)', fontWeight: 300, lineHeight: 1.6 }}>
+              — Pra você que já mudou a estratégia, a rotina, o método e continua esbarrando nos mesmos problemas.
+            </li>
+            <li className="bullet-item" style={{ color: 'var(--text-white)', fontSize: 'var(--text-lg)', fontWeight: 300, lineHeight: 1.6 }}>
+              — Pra você que olha para trás e percebe que algumas histórias só mudaram de cenário.
+            </li>
           </ul>
 
-          <div style={{ marginTop: '4rem', textAlign: 'center' }}>
-            <button onClick={openPopup} className="btn-cta" style={{ maxWidth: '400px' }}>
-              QUERO AGENDAR MINHA CONSULTA
-            </button>
+          <p style={{ marginTop: 'var(--space-12)', fontSize: 'var(--text-xl)', color: 'var(--gold-primary)', lineHeight: 1.6, fontWeight: 400, fontStyle: 'italic', fontFamily: 'var(--font-playfair)' }}>
+            Até pra quem já chegou em algum lugar, conquistou o que queria conquistar, mas parece que nada daquilo faz sentido.
+          </p>
+
+          <div style={{ marginTop: 'var(--space-12)' }}>
+            <CtaButton />
           </div>
         </div>
       </div>

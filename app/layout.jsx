@@ -1,4 +1,4 @@
-import { Inter, Outfit, Plus_Jakarta_Sans } from 'next/font/google';
+import { Inter, Playfair_Display } from 'next/font/google';
 import Script from 'next/script';
 import { Analytics } from "@vercel/analytics/react";
 import './globals.css';
@@ -10,23 +10,17 @@ const inter = Inter({
   weight: ['300', '400', '500', '600']
 });
 
-const outfit = Outfit({
+const playfair = Playfair_Display({
   subsets: ['latin'],
-  variable: '--font-outfit',
+  variable: '--font-playfair',
   display: 'swap',
-  weight: ['300', '400', '600', '700']
-});
-
-const jakartaSans = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  variable: '--font-jakarta',
-  display: 'swap',
-  weight: ['300', '400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700', '800'],
+  style: ['normal', 'italic'],
 });
 
 export const metadata = {
-  title: 'Perímetro: Ciclo de Reconfiguração | Ernani',
-  description: 'Descubra o que está decidindo antes de você. Um processo individual baseado na TAR para investigar o espaço entre o que você sabe e o que consegue sustentar.',
+  title: 'Mentoria Origem | Ernani Felipe',
+  description: 'Um ciclo com seis encontros de direcionamento individual para quem sabe exatamente o que precisa fazer e, mesmo assim, não faz. Destrave a sua execução.',
 };
 
 export const viewport = {
@@ -50,7 +44,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body className={`${inter.variable} ${outfit.variable} ${jakartaSans.variable}`}>
+      <body className={`${inter.variable} ${playfair.variable}`}>
         <noscript>
           <iframe 
             src="https://www.googletagmanager.com/ns.html?id=GTM-PCWXCCJ7"

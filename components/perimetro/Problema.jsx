@@ -1,56 +1,95 @@
-'use client';
 import React from 'react';
-import { usePopup } from '../../app/components/PopupContext';
+import CtaButton from './CtaButton';
 
 export default function Problema() {
-  const { openPopup } = usePopup();
 
   return (
-    <section id="problema" style={{ position: 'relative', background: 'var(--bg-dark)', padding: '6rem 0' }}>
-      
-      {/* Continuing diagram line */}
-      <div style={{ position: 'absolute', top: 0, left: '50%', transform: 'translateX(-50%)', width: '1px', height: '100%', background: 'var(--gold-primary)', opacity: 0.15, zIndex: 0 }}></div>
+    <section id="problema" style={{ position: 'relative', background: 'var(--bg-dark)' }}>
 
-      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '3px' }}>A DISTÂNCIA ENTRE SABER, AGIR E MUDAR</span>
-        <h2 className="section-title reveal delay-1" style={{ color: 'var(--text-white)', fontWeight: 300, fontSize: 'clamp(2rem, 3vw, 2.5rem)', maxWidth: '900px', margin: '0 auto 4rem', lineHeight: 1.4 }}>
-          Existe uma diferença entre compreender um padrão e conseguir sair dele.
-        </h2>
-        
-        <div className="reveal delay-2" style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <div className="opportunity-content">
-            
-            <div style={{ textAlign: 'left', margin: '0 auto', maxWidth: '700px', display: 'flex', flexDirection: 'column', gap: '1.5rem', color: 'var(--text-muted)', fontSize: '1.15rem', lineHeight: 1.7 }}>
-              <p>Muitas pessoas chegam até aqui acreditando que lhes falta disciplina, coragem ou falta de dedicação.</p>
-              
-              <p>Porém, na maioria das vezes, o problema é outro.</p>
-              
-              <p>Você sabe que determinada conversa precisa acontecer, mas adia. Sabe que uma decisão precisa ser tomada, mas continua esperando o momento certo. Percebe que certos comportamentos estão cobrando um preço alto, mas acaba repetindo exatamente aquilo que prometeu não repetir.</p>
+      <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: '840px' }}>
 
-              <p className="mt-4" style={{ color: 'var(--gold-primary)', fontWeight: 500 }}>Ao longo deste processo:</p>
+        <span className="section-label reveal" style={{ color: 'var(--text-muted)', letterSpacing: '4px', textTransform: 'uppercase', fontSize: 'var(--text-xs)', display: 'block', marginBottom: 'var(--space-6)' }}>
+          A Distância Entre Saber e Fazer
+        </span>
 
-              <p>Vamos investigar o por que algumas decisões parecem simples no plano racional e quase impossíveis quando chega a hora de executá-las.</p>
+        <div className="reveal delay-1" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 'var(--space-4)', marginBottom: 'var(--space-16)' }}>
+          {[
+            { l1: 'Você sabe', l2: 'que precisa ter', l3: 'aquela conversa.' },
+            { l1: 'Você sabe', l2: 'que precisa tomar', l3: 'aquela decisão.' },
+            { l1: 'Você sabe', l2: 'que determinado', l3: 'comportamento', l4: 'está cobrando', l5: 'um preço.' }
+          ].map((item, i) => (
+            <div key={i} style={{ 
+              padding: 'var(--space-8) var(--space-4)', 
+              background: '#FDFCF9', 
+              borderRadius: '4px', 
+              display: 'flex', 
+              flexDirection: 'column',
+              alignItems: 'center', 
+              justifyContent: 'center',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.4)'
+            }}>
               
-              <p>Vamos compreender o por que determinadas mudanças acontecem por um tempo e depois desaparecem, como se algo sempre puxasse você de volta para o mesmo lugar.</p>
-              
-              <p>Vamos identificar as regras internas que muitas vezes passam a decidir antes mesmo que você perceba, ou que te convence a recuar diante da própria intenção.</p>
-              
-              <p>E claro, vamos atuar diretamente nestas coordenadas que travam o seu avanço. Afinal, se a regra interna que mantém o padrão permanecer inalterada, toda tentativa de transformação terá prazo de validade.</p>
+              {/* Linha Topo */}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: 'var(--space-6)' }}>
+                <div style={{ width: '1px', height: '40px', background: 'var(--gold-primary)', opacity: 0.6 }}></div>
+                <div style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--gold-primary)', marginTop: '2px' }}></div>
+              </div>
+
+              {/* Texto */}
+              <div style={{ textAlign: 'center', color: '#1A1A1A', fontFamily: 'var(--font-playfair)', fontSize: 'var(--text-xl)', lineHeight: 1.3, fontWeight: 400 }}>
+                <span style={{ display: 'block' }}>{item.l1}</span>
+                <span style={{ display: 'block' }}>{item.l2}</span>
+                {item.l4 ? (
+                  <>
+                    <span style={{ display: 'block' }}>{item.l3}</span>
+                    <span style={{ display: 'block', color: 'var(--gold-primary)', fontStyle: 'italic', marginTop: '4px' }}>{item.l4}</span>
+                    <span style={{ display: 'block', color: 'var(--gold-primary)', fontStyle: 'italic' }}>{item.l5}</span>
+                  </>
+                ) : (
+                  <span style={{ display: 'block', color: 'var(--gold-primary)', fontStyle: 'italic', marginTop: '4px' }}>{item.l3}</span>
+                )}
+              </div>
+
+              {/* Linha Base */}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'var(--space-6)' }}>
+                <div style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--gold-primary)', marginBottom: '2px' }}></div>
+                <div style={{ width: '1px', height: '40px', background: 'var(--gold-primary)', opacity: 0.6 }}></div>
+              </div>
+
             </div>
-            
-            <div style={{ padding: '2.5rem', background: 'var(--card-bg)', border: '1px solid var(--border-color)', borderRadius: '4px', marginTop: '4rem', textAlign: 'center' }}>
-              <p className="opportunity-text" style={{ fontWeight: 400, color: 'var(--text-white)' }}>
-                O problema nunca foi você, mas os limites que você carrega inconscientemente.
-              </p>
-            </div>
-
-            <div style={{ marginTop: '3rem', textAlign: 'center' }}>
-              <button onClick={openPopup} className="btn-cta" style={{ maxWidth: '400px' }}>
-                QUERO AGENDAR MINHA CONSULTA
-              </button>
-            </div>
-          </div>
+          ))}
         </div>
+
+        <div className="reveal delay-2" style={{ borderLeft: '1px solid var(--gold-border)', paddingLeft: 'var(--space-8)', display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
+
+          <p className="font-heading" style={{ color: 'var(--gold-primary)', fontSize: 'var(--text-3xl)', fontStyle: 'italic' }}>
+            Mesmo assim, adia.
+          </p>
+
+          <p style={{ color: 'var(--text-muted)', fontSize: 'var(--text-lg)', lineHeight: 1.7, fontWeight: 300 }}>
+            Porque compreender racionalmente um padrão não significa conseguir sair dele.
+          </p>
+
+          <p style={{ color: 'var(--text-muted)', fontSize: 'var(--text-lg)', lineHeight: 1.7, fontWeight: 300 }}>
+            Na Mentoria Origem, investigamos o que acontece entre a intenção e a ação: as regras internas que fazem uma decisão parecer óbvia na cabeça e quase impossível na vida real.
+          </p>
+
+          <p style={{ color: 'var(--text-muted)', fontSize: 'var(--text-lg)', lineHeight: 1.7, fontWeight: 300 }}>
+            Enquanto essas regras permanecerem intactas, a mudança tende a ter prazo de validade.
+          </p>
+
+        </div>
+
+        <div style={{ padding: 'var(--space-8) 0', borderTop: '1px solid var(--gold-border)', borderBottom: '1px solid var(--gold-border)', marginTop: 'var(--space-16)' }}>
+          <p className="font-heading" style={{ fontSize: 'var(--text-2xl)', color: 'var(--text-white)' }}>
+            O trabalho começa justamente onde a <span style={{ fontStyle: 'italic', color: 'var(--gold-primary)' }}>explicação termina.</span>
+          </p>
+        </div>
+
+        <div style={{ marginTop: 'var(--space-12)' }}>
+          <CtaButton />
+        </div>
+
       </div>
     </section>
   );

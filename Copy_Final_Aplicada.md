@@ -1,175 +1,221 @@
 # MENTORIA ORIGEM
 
-## BLOCO 1 - HERO
+**[ H1 — TÍTULO GIGANTE ]**
+Entenda a ORIGEM da trava que te impede de ir mais longe.
 
-> *Aqui acho que vai uma imagem de fundo (Background/Textura). A regra é: nenhuma imagem de pessoa nesta dobra. O objetivo é algo sutil (baixo contraste/opacidade) apenas para o fundo não ficar preto chapado.*
+**[ H2 — SUBTÍTULO ]**
+**Você sabe que sua mente é acima da média.**
 
-**MENTORIA ORIGEM**
+Já entendeu muita coisa. Já tentou mudar hábitos, comportamentos e decisões. Mas, em algum momento, acaba voltando aos mesmos padrões.
 
-Você já entendeu o seu padrão.
-**A pergunta agora é: por que continua obedecendo a ele?**
+**Assista ao vídeo e descubra como referências construídas ao longo da sua vida ainda podem influenciar suas escolhas hoje — mesmo quando você acredita estar fazendo a coisa certa.**
 
-Um ciclo com seis encontros de direcionamento e acompanhamento individual para quem sabe exatamente o que precisa fazer e, mesmo assim, não faz.
+**[ VSL ]**
 
-DESTRAVE A SUA EXECUÇÃO E POTENCIALIZE DE VEZ OS RESULTADOS
-
-[ QUERO AGENDAR MINHA CONSULTA ]
-
----
-
-## BLOCO 2 - PARA QUEM É?
-
-**Este ciclo foi pensado para quem já sabe demais e continua parado.**
-
-Especialmente para você que:
-— construiu uma carreira sólida, mas trava quando precisa decidir sobre a própria vida;
-— consegue liderar pessoas e resolver problemas complexos, mas adia há anos uma decisão pessoal;
-— já fez terapia, estudou comportamento, ouviu podcasts, leu livros e acumulou explicações, sem conseguir sustentar determinadas mudanças;
-— começa mudanças importantes e depois percebe que está voltando sistematicamente ao mesmo ponto;
-— conquistou algo que deveria trazer satisfação e descobriu que a sensação esperada simplesmente não veio;
-— teme que mudar signifique destruir carreira, relacionamento ou tudo aquilo que levou anos para construir.
+**Destrave sua execução e transforme compreensão em movimento.**
 
 [ QUERO AGENDAR MINHA CONSULTA ]
 
 ---
 
-## BLOCO 3 - A DISTÂNCIA ENTRE SABER, AGIR E MUDAR
+## PARA QUEM É?
 
-**Existe uma diferença entre compreender um padrão e conseguir sair dele.**
+Pra você que trabalha, corre, resolve… mas termina o dia com a sensação de não ter feito nada.
 
-Muitas pessoas chegam até aqui acreditando que lhes falta disciplina, coragem ou falta de dedicação.
-Porém, na maioria das vezes, o problema é outro.
-Você sabe que determinada conversa precisa acontecer, mas adia. Sabe que uma decisão precisa ser tomada, mas continua esperando o momento certo. Percebe que certos comportamentos estão cobrando um preço alto, mas acaba repetindo exatamente aquilo que prometeu não repetir.
+Pra você que começa com certeza e, no meio do caminho, desiste.
 
-**Ao longo deste processo:**
-Vamos investigar o por que algumas decisões parecem simples no plano racional e quase impossíveis quando chega a hora de executá-las.
-Vamos compreender o por que determinadas mudanças acontecem por um tempo e depois desaparecem, como se algo sempre puxasse você de volta para o mesmo lugar.
-Vamos identificar as regras internas que muitas vezes passam a decidir antes mesmo que você perceba, ou que te convence a recuar diante da própria intenção.
-E claro, vamos atuar diretamente nestas coordenadas que travam o seu avanço. Afinal, se a regra interna que mantém o padrão permanecer inalterada, toda tentativa de transformação terá prazo de validade.
+Pra você que está diante de uma oportunidade, mas encontra um bom motivo para esperar mais um pouco.
 
-O problema nunca foi você, mas os limites que você carrega inconscientemente.
+Pra você que já mudou a estratégia, a rotina, o método e continua esbarrando nos mesmos problemas.
+
+Pra você que olha para trás e percebe que algumas histórias só mudaram de cenário.
+
+**Até pra quem já chegou em algum lugar, conquistou o que queria conquistar, mas parece que nada daquilo faz sentido.**
 
 [ QUERO AGENDAR MINHA CONSULTA ]
 
 ---
 
-## BLOCO 4 - A METODOLOGIA
+## A DISTÂNCIA ENTRE SABER E FAZER
 
-**Existe uma pergunta que orienta todo este trabalho:**
-*"O que faz uma pessoa continuar vivendo dentro de certos limites que ela mesma reconhece não querer estar?"*
+Você sabe que precisa ter aquela conversa.
 
-A **Teoria da Autoimagem Referencial (TAR)** surge como uma tentativa de responder essa pergunta.
-Ela parte de uma observação simples. Existem determinadas coordenadas internas relacionadas ao que você acredita que pode, consegue e merece.
-O ponto importante é que essas coordenadas não operam principalmente no nível racional. Foram construídas por aprendizados emocionais ao longo da vida e continuam influenciando suas escolhas, mesmo quando sua mente consciente pensa diferente.
+Sabe que precisa tomar aquela decisão.
 
-- **Posso é autorização:** isso é certo para mim?
-- **Consigo é capacidade:** irei dar conta disso?
-- **Mereço é legitimidade:** se der certo, tenho direito de ficar com isso?
+Sabe que determinado comportamento está cobrando um preço.
 
-Na superfície, muitas pessoas respondem "sim" para essas três perguntas. O problema é que o comportamento não é determinado apenas pelas respostas conscientes que damos, mas pelas referências emocionais implícitas que carregamos. É por isso que alguém pode saber exatamente o que precisa fazer e, ainda assim, continuar repetindo o mesmo padrão.
+**Mesmo assim, adia.**
 
-Ninguém escolheu essas conclusões. Elas se formaram cedo, em situações concretas, e serviram para alguma coisa na época: sobreviver, pertencer, manter vínculo. Foram soluções competentes para um contexto que não existe mais, mas continuam operando como referências para definir o que parece possível, seguro ou compatível com quem você acredita ser.
+Porque compreender racionalmente um padrão não significa conseguir sair dele.
 
-Essas coordenadas influenciam aquilo que parece possível. O que parece possível influencia o que você percebe. O que você percebe influencia suas escolhas. Suas escolhas produzem resultados. E os resultados acabam reforçando a visão inicial que você tinha sobre si mesmo.
+Na Mentoria Origem, investigamos o que acontece entre a intenção e a ação: as regras internas que fazem uma decisão parecer óbvia na cabeça e quase impossível na vida real.
 
-### O circuito que mantém um padrão funcionando
+Enquanto essas regras permanecerem intactas, a mudança tende a ter prazo de validade.
 
-> *Aqui precisamos de uma ideia de metáfora visual ou direcionamento de infográfico elegante para ilustrar os 6 passos do circuito abaixo. O objetivo é quebrar os blocos pesados de texto.*
-
-- **COORDENADA:** "Posso, consigo e mereço?"
-- **EXPECTATIVA:** "Isso parece possível para alguém como eu?"
-- **PERCEPÇÃO:** Você passa a notar mais riscos, obstáculos e motivos para recuar.
-- **AÇÃO:** Hesita, adia, evita ou se compromete menos do que gostaria.
-- **RESULTADO:** A mudança não acontece como poderia ou dura menos do que você esperava.
-- **CONFIRMAÇÃO:** "Está vendo? Eu sabia que não era para mim, que não daria conta, que não era possível."
-
-Vinte anos de voltas nesse circuito produzem uma estrutura densa, com evidências suficientes para que a própria vida pareça confirmar a imagem que você construiu sobre si mesmo.
-Por isso, compreender o padrão é apenas o começo. Uma nova explicação pode ampliar sua consciência sobre o que acontece, mas dificilmente altera, sozinha, uma referência construída por anos de experiência.
-
-A mudança começa quando novas experiências colocam essas referências à prova.
-É justamente sobre esse processo que os seis encontros foram estruturados.
+**O trabalho começa justamente onde a explicação termina.**
 
 [ QUERO AGENDAR MINHA CONSULTA ]
 
 ---
 
-## BLOCO 5 - COMO FUNCIONA A MENTORIA ORIGEM
+## A METODOLOGIA
 
-**Seis encontros para ir da compreensão do padrão à liberdade de agir diferente.**
+**Você não repete os mesmos erros porque quer.**
 
-A maioria das pessoas tenta mudar começando pelo comportamento. A Mentoria Origem percorre o caminho inverso: primeiro entendemos o mecanismo, depois acessamos as referências que o sustentam e, a partir daí, criamos novas possibilidades de escolha.
-Por isso, os seis encontros seguem uma sequência. Cada etapa cumpre uma função específica dentro do processo, e todas se conectam para que o trabalho não termine em mais uma compreensão sobre você mesmo.
+Muitas vezes, você toma uma decisão acreditando estar fazendo a escolha certa e só depois percebe que errou novamente.
 
-- **01 — O (ORIGEM DE TUDO)**
-  Encontrar o ponto de partida. Tudo começa tornando claro o que está acontecendo: onde o padrão aparece, como ele se manifesta e o que mantém a repetição funcionando. É o momento de abrir a caixa-preta e compreender por que, mesmo sabendo o que precisava mudar, você continuava sem avançar.
-- **02 — R (RAIZ)**
-  Chegar às referências que sustentam o padrão. O trabalho avança para aquilo que foi aprendido ao longo da vida e continua influenciando suas escolhas no presente. Aqui, chegamos à estrutura emocional que deu origem ao padrão e que ainda participa das decisões que você toma hoje.
-- **03 — I (IMAGEM)**
-  Mudar as coordenadas de como você se percebe em relação ao que pode, consegue e merece. A autoimagem passa a ser trabalhada diretamente, ampliando aquilo que você consegue reconhecer como possível para si. É onde novas coordenadas internas começam a ser construídas, abrindo espaço para escolhas que antes pareciam incompatíveis com quem você acreditava ser.
-- **04 — G (GOVERNO)**
-  Transformar compreensão em escolha. O que foi descoberto começa a ganhar expressão na vida concreta: decisões, posicionamentos e movimentos coerentes com a direção que você deseja seguir. É o momento de colocar as mudanças internas em prática e ajustar o que ainda precisa ser reorganizado.
-- **05 — E (O EU)**
-  Retomar o lugar de quem conduz. Você aprofunda a distinção entre o personagem que aprendeu a desempenhar e o Eu que pode escolher como quer viver. A partir dessa compreensão, os antigos mecanismos deixam de conduzir suas escolhas automaticamente e você recupera espaço para decidir de acordo com aquilo que realmente quer viver.
-- **06 — M (MOVIMENTO)**
-  Levar o trabalho para além da mentoria. O ciclo se fecha organizando o que foi transformado, o que ainda merece atenção e como continuar avançando sem voltar a depender das referências que mantinham o padrão antigo.
+**É justamente aí que entra a TAR — Teoria da Autoimagem Referencial.**
 
-Os seis encontros formam uma única jornada.
-Uma sequência construída para acompanhar o caminho inteiro: compreender, acessar, atualizar, escolher e seguir.
-O que começa como uma dificuldade que você não conseguia explicar passa a ter um mecanismo compreensível, um trabalho direcionado e uma nova possibilidade de movimento.
-É isso que a Mentoria Origem se propõe a fazer.
+A TAR investiga três coordenadas internas que influenciam a forma como você escolhe, age e reage:
+
+**POSSO** — isso é permitido para mim?
+
+**CONSIGO** — eu dou conta?
+
+**MEREÇO** — se der certo, posso sustentar isso?
+
+Racionalmente, você pode responder “sim”.
+
+Mas suas escolhas também são influenciadas por referências emocionais construídas ao longo da vida.
+
+Aquilo que um dia ajudou você a sobreviver, pertencer ou manter vínculos pode continuar funcionando como uma regra, mesmo quando o contexto já mudou.
+
+[ DEIXAR UM ESPAÇO PARA A IMAGEM DO CIRCUITO ]
+
+**E é assim que uma referência do passado pode continuar influenciando decisões que você toma hoje.**
+
+A TAR trabalha justamente nesse ponto: **tornar visível aquilo que influencia suas escolhas sem que você perceba.**
 
 [ QUERO AGENDAR MINHA CONSULTA ]
 
 ---
 
-## BLOCO 6 - QUEM CONDUZ O PROCESSO
+## COMO FUNCIONA A MENTORIA ORIGEM
 
-> *Aqui vai a fotografia do autor (Ernani Felipe). O tom da foto precisa ser de autoridade e introspecção, sóbria, sem microfone de palco ou cores vibrantes.*
+**Seis encontros. Um caminho da compreensão ao movimento.**
 
-**Ernani Felipe**
+### 01 — O | ORIGEM
 
-Terapeuta com especialização em Neurociências e seis anos de prática clínica antes de migrar para autoria e educação.
+**Encontrar o ponto de partida.**
+
+Abrir a caixa-preta para entender onde o padrão aparece, como ele funciona e por que continua se repetindo, mesmo quando você tenta fazer diferente.
+
+### 02 — R | RAIZ
+
+**Chegar ao que nutre o padrão.**
+
+Acessar as referências construídas ao longo da vida que ainda influenciam as escolhas que você faz hoje.
+
+### 03 — I | IMAGEM
+
+**Mudar as coordenadas de como você se enxerga.**
+
+Trabalhar sua percepção sobre o que pode, consegue e merece, abrindo espaço para possibilidades que antes pareciam não caber na sua vida.
+
+### 04 — G | GOVERNO
+
+**Transformar compreensão em escolha.**
+
+Levar o que mudou por dentro para a vida real: decisões, posicionamentos e movimentos alinhados à direção que você quer seguir.
+
+### 05 — E | EU
+
+**Retomar o lugar de quem conduz.**
+
+Separar o personagem que você aprendeu a desempenhar de quem você é hoje, recuperando espaço para escolher como realmente quer viver.
+
+### 06 — M | MOVIMENTO
+
+**Seguir sem voltar ao mesmo lugar.**
+
+Organizar o que mudou, reconhecer o que ainda merece atenção e continuar avançando sem depender das referências que sustentavam o padrão antigo.
+
+**ORIGEM não são seis conversas isoladas.**
+
+É um caminho para entender de onde você veio, mudar o que ainda te prende e escolher para onde quer seguir.
+
+[ QUERO AGENDAR MINHA CONSULTA ]
+
+---
+
+## QUEM CONDUZ O PROCESSO
+
+### Ernani Felipe
+
+Terapeuta com especialização em Neurociências e seis anos de prática clínica.
+
 Autor de **“Por que nos sabotamos”** e criador da **TAR — Teoria da Autoimagem Referencial**.
 
-A metodologia nasceu da investigação de uma questão recorrente no seu trabalho:
-*"Por que alguém pode compreender profundamente um problema, possuir informação, querer mudar e ainda continuar reproduzindo determinado comportamento?"*
+Seu trabalho nasceu de uma pergunta recorrente:
 
-O atendimento é individual e online, para brasileiros no Brasil e no exterior.
+**Por que alguém sabe que tem um problema, sabe o que precisa fazer, mas, na hora de mudar, trava?**
+
+E quanto mais tenta sem conseguir, mais acumula frustração, culpa e a sensação de estar falhando consigo mesmo.
+
+Foi investigando essa distância entre **saber e conseguir fazer** que nasceu a TAR.
+
+Atendimento individual e online para brasileiros no Brasil e no exterior.
 
 ---
 
-## BLOCO 7 - FAQ (PERGUNTAS E OBJEÇÕES)
+## O QUE VOCÊ PRECISA SABER
 
-**O que você precisa saber antes de iniciar**
+### “Mas eu já entendi os meus padrões.”
 
-**Mas eu já entendi os meus padrões.**
-Ótimo. Então provavelmente você não precisa de mais explicações sobre eles. A Mentoria Origem parte justamente da diferença entre compreender um padrão e conseguir agir de outra maneira quando a situação acontece na vida real.
+Então talvez você não precise de mais explicações.
 
-**Tenho medo de mudar e destruir tudo o que construí.**
-Mudar um padrão não significa abandonar sua carreira, seu relacionamento ou a vida que você construiu até aqui. O objetivo do processo não é empurrar você para decisões radicais, mas ampliar sua capacidade de escolha para que suas decisões sejam mais conscientes e coerentes com aquilo que realmente deseja viver.
+A Mentoria Origem começa justamente na distância entre **entender o padrão** e **conseguir agir diferente quando ele aparece**.
 
-**Por que a consulta de avaliação é uma etapa tão importante?**
-Porque o problema raramente está exatamente onde parece estar. Você pode acreditar que precisa de mais disciplina, coragem, confiança ou simplesmente tomar uma decisão que vem adiando. Mas essas dificuldades podem ser apenas a parte visível de um mecanismo que continua organizando suas escolhas. A consulta é o primeiro momento para investigar esse mecanismo com profundidade, a partir da sua história e do que está acontecendo hoje.
+### “Tenho medo de mudar e destruir tudo o que construí.”
 
-**O que vou levar da consulta de avaliação?**
-Uma compreensão mais precisa sobre o que está acontecendo e sobre os padrões que podem estar participando disso. Ao longo da conversa, você começa a enxergar sua situação a partir da Teoria da Autoimagem Referencial (TAR) e a compreender como esse modelo se aplica à sua realidade. A partir dessa clareza, você poderá decidir com mais segurança se a Mentoria Origem é o próximo passo para você.
+Mudar não significa jogar sua vida para o alto.
 
-**Preciso estar em crise para participar?**
-Não. Você pode estar trabalhando, cuidando da família, cumprindo suas responsabilidades e, ainda assim, sentir que existe uma distância entre a vida que construiu e a vida que realmente gostaria de viver. A Mentoria Origem também foi pensada para esse momento: quando, por fora, tudo parece funcionar, mas por dentro permanece a sensação de estar vivendo aquém do que poderia.
+O objetivo é ampliar sua capacidade de escolha para que você não precise continuar obedencing automaticamente aos mesmos padrões.
 
-**E se eu não souber exatamente qual é o meu problema?**
-Tudo bem. Talvez você perceba apenas que continua repetindo situações parecidas, tomando decisões que não entende ou convivendo com uma insatisfação que não consegue explicar. Parte do trabalho começa justamente trazendo clareza para aquilo que hoje ainda parece confuso.
+### “Por que começar pela consulta de avaliação?”
 
-**E se eu já tentei outras abordagens e nada funcionou?**
-Talvez você já tenha estudado comportamento, feito cursos, lido livros ou passado por diferentes processos e, ainda assim, perceba que continua voltando a determinados padrões. A proposta da Mentoria Origem não é acrescentar mais uma explicação àquilo que você já sabe. É investigar o mecanismo que mantém o padrão funcionando e trabalhar diretamente sobre ele.
+Porque o problema nem sempre está onde parece.
+
+O que parece falta de disciplina, coragem ou confiança pode ser apenas a parte visível de um mecanismo mais profundo.
+
+A consulta serve para investigar esse mecanismo dentro da sua história.
+
+### “O que vou levar dessa consulta?”
+
+Mais clareza sobre o que está acontecendo, quais padrões podem estar envolvidos e como a TAR se aplica à sua realidade.
+
+A partir daí, você decide se a Mentoria Origem faz sentido como próximo passo.
+
+### “Preciso estar em crise?”
+
+Não.
+
+Sua vida pode estar funcionando por fora enquanto, por dentro, permanece a sensação de estar vivendo aquém do que poderia.
+
+### “E se eu nem souber qual é o problema?”
+
+Esse também pode ser o ponto de partida.
+
+Às vezes você só percebe que as mesmas situações continuam se repetindo.
+
+**O primeiro passo é tornar visível o mecanismo por trás delas.**
+
+### “E se eu já tentei outras abordagens?”
+
+A proposta não é acrescentar mais uma explicação ao que você já sabe.
+
+É investigar **por que, apesar de tudo o que você sabe, o padrão ainda consegue puxá-lo de volta.**
 
 [ QUERO AGENDAR MINHA CONSULTA ]
 
 ---
 
-## RODAPÉ
+## FOOTER
 
-Compreenda o que te trava. Supere o que te limita. E, finalmente, tenha liberdade para ser você mesmo.
+Compreenda o que te trava.
+
+**Supere o que te limita. E tenha liberdade para escolher como quer viver.**
 
 Política de Privacidade | Termos de Uso
+
 © 2026 EF3 Education LTDA. Todos os direitos reservados.

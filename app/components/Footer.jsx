@@ -10,7 +10,7 @@ const Footer = ({ simple = false }) => (
     background: simple ? 'var(--bg-dark)' : 'transparent'
   }}>
     <div className="container" style={{ textAlign: 'center' }}>
-      <p style={{ color: 'var(--text-white)', fontSize: '1rem', marginBottom: '1rem' }}>Compreenda o que te trava. Supere o que te limita. E, finalmente, tenha liberdade para ser você mesmo.</p>
+      <p style={{ color: 'var(--text-white)', fontSize: '1rem', marginBottom: '1rem' }}>Compreenda o que te trava. <strong>Supere o que te limita. E tenha liberdade para escolher como quer viver.</strong></p>
       <p style={{ marginBottom: '1rem' }}>
         <a href="#" style={{ color: 'inherit', textDecoration: 'none' }}>Política de Privacidade</a> | <a href="#" style={{ color: 'inherit', textDecoration: 'none' }}>Termos de Uso</a>
       </p>

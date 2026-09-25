@@ -6,7 +6,7 @@ export default function FinalPitch() {
   const { openPopup } = usePopup();
 
   return (
-    <section className="final-cta" id="inscricao" style={{ position: 'relative', background: 'var(--bg-dark)', padding: '8rem 0', borderTop: '1px solid var(--border-color)' }}>
+    <section className="final-cta" id="inscricao" style={{ position: 'relative', background: 'var(--bg-dark)', borderTop: '1px solid var(--border-color)' }}>
       
       {/* Continuing diagram line */}
       <div style={{ position: 'absolute', top: 0, left: '50%', transform: 'translateX(-50%)', width: '1px', height: '80px', background: 'var(--gold-primary)', opacity: 0.15, zIndex: 0 }}></div>
